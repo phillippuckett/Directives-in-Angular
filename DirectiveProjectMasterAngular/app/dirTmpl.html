@@ -1,0 +1,29 @@
+<p>An armed and fully operational b... template!</p>
+
+// 2 //
+<!--Also we're going to need a template html for our directive. 
+We could do it inline, but let's make another file instead. 
+Just name it something that makes sense for the name of your 
+directive and put it in the same directory as your directive 
+file.-->
+
+<!--For your template just make a <div> and inside a <h1> tag 
+that says "User". Now in your home route html add in your directive. 
+It will look like this if you named it dirDisplay: 
+<dir-display></dir-display>-->
+<div>
+	<h1>User</h1>
+</div>
+
+<!--Start up your app and go to the home route. Check and make 
+sure you see User where your directive was placed.-->
+
+<!--If you're not seeing it at this point it could mean a few things. 
+Here's some more common issues.
+You didn't link your directive in your index as a script.
+Your name for your directive doesn't match the name in your html. 
+Remember camel case becomes snake case so myDirective becomes 
+<my-directive></my-directive>.
+You're file path to your html template is wrong. You have to think 
+of file paths in angular as relative to the index.-->
+
